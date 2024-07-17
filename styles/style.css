@@ -71,3 +71,24 @@ nav{
     margin-top: 50px;
     justify-content: center;
 }
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 7, 1fr;
+    row-gap: 20px;
+    column-gap: 10px;
+   
+}
+.date,.day{
+    background-color: aqua;
+    border-radius: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    align-items: center;
+
+}
+.day{
+    background-color: chartreuse;
+}
