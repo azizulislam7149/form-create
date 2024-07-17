@@ -57,3 +57,17 @@ nav{
     border: 2px solid blueviolet;
     margin: 50px auto;
 }
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(2,5fr);
+    /* grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px; */
+    justify-content: center;
+
+    margin-top: 50px;
+    /* justify-items: center; */
+}
+.item{
+    border: 2px solid magenta;
+    margin-top: 50px;
+    justify-content: center;
+}
